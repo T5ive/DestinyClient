@@ -236,9 +236,7 @@ shiftCharacters.insert(shiftCharacters.end(), handRightAndTop.begin(), handRight
 ```
 
   
-2.Hook CFont:![:D](https://cdn.jsdelivr.net/joypixels/assets/8.0/png/unicode/64/1f600.png "Big grin    :D")rawTextA to check latest text maple draw in to client  
-
-PHP:
+2.Hook CFont::DrawTextA to check latest text maple draw in to client  
 
 ```
 bool hookCFontDrawTextA() {    
